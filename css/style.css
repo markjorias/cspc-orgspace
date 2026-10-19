@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 1000px;
+}
+
+.header {
+    opacity: 1;
+    height: 135px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+}
+
+.header img {
+    width: 400px;
+    height: 135px;
+    margin-top: 13px;
+    transition: 0.35s ease-in-out;
+}
+
+.header img:hover {
+    width: 400px;
+    height: 135px;
+    margin-top: 13px;
+    filter: brightness();
+    filter: saturate(2);
+}
+
+.header button {
+    color: #ffffff;
+    font-family: "Tanker";
+    background-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 110px;
+    height: 45px;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 38px;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.header button:hover {
+    color: #399CF9;
+    font-size: 30px;
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.home-bg {
+    background-image: url(/photo/psme_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 150px 50px 0px rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-center;
+}
+
+.home-bg img {
+    width: 435px;
+    padding-top: 120px;
+    
+}
+
+.title {
+    font-family: Tanker;
+    width: 800px;
+    height: 353px;
+    padding-top: 175px;
+    margin-left: 200px;
+    display: inline-block;
+    line-height: 97.6px;
+    
+    
+}
+
+.title h1 {
+    color: #E9DF00;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50);
+    font-size: 200px;
+    font-weight: 400;
+    font-variant: all-small-caps;
+    letter-spacing: -1.2px;
+}
+
+.anizations {
+    color: #FFF;
+    font-size: 200px;
+    line-height: 80%;
+}
+
+.title p {
+    font-family: "Bespoke Serif";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+    padding-top: 10px;
+    line-height: 36px;
+    text-shadow: 100px 100px 100px rgba(0, 0, 0, 1);
+
+}

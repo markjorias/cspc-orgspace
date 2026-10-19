@@ -1,0 +1,17 @@
+body {
+    animation: transitionIn 0.75s ease-in-out;
+
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        
+    }
+
+    to {
+        opacity: 1;
+        
+    }
+}

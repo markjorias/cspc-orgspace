@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.block-container {
+  background-color: #ffc2ff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-1 {
+  background-color: #800080;
+  width: 100%;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.block-1 button {
+  color: white;
+  font-family: "Tanker";
+  background-color: transparent;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  width: 110px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 38px;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.block-1 button:hover {
+  color: #399cf9;
+  font-size: 30px;
+  letter-spacing: 5px;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.block-1 img {
+  object-fit: scale-down;
+  height: 128px;
+  width: 300px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.block-2 {
+  background-image: url(/photo/pnsa_photo.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0px 150px 50px 0px rgba(0, 0, 0, 0.7);
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 127px;
+  margin-bottom: 75px;
+}
+
+.block-title {
+  width: 1320px;
+  height: auto;
+  font-family: Tanker;
+  font-size: 4vw;
+  letter-spacing: -1.2px;
+  line-height: 180%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding-top: 75px;
+}
+
+.block-title h1 {
+  color: white;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  text-align: left;
+}
+.block-title span {
+  color: #800080;
+}
+
+.block-3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.org-profiles {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.org-profile-container {
+  height: 638px auto;
+  display: flex;
+  padding: 50px 0 50px 0;
+  margin-bottom: 50px;
+  column-gap: 90px;
+}
+
+.org-profile-logo {
+  background-color: rgba(255, 255, 255, 1);
+  width: 455px;
+  height: 475px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  padding: 100px;
+  box-shadow: 0px 4px 100px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0px 4px 100px 5px rgba(0, 0, 0, 0.25);
+}
+
+.cea_logo {
+  width: 350px;
+}
+
+.org-profile-description {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.org-profile-description h1 {
+  font-family: "General Sans";
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.org-profile-description p {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0px 0px 25px 0px;
+  text-align: justify;
+}
+
+.org-profile-socials {
+}
+
+.org-profile-socials h1 {
+  font-family: "General Sans";
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.org-profile-socials img {
+  width: 50px;
+  height: 50px;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.org-profile-socials img:hover {
+  filter: grayscale(0%);
+  scale: 1.1;
+}
+
+.block-5 {
+  color: white;
+  height: 239px;
+  background-color: #13234a;
+  width: 100%;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 30px;
+}
+
+.block-5-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-5-description {
+  width: 1320px;
+  padding: 0px 30px 20px;
+}
+
+.block-5 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.block-5 p {
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0px 0px;
+}
+
+.block-5-button {
+  width: 1320px;
+  margin: 0px auto;
+  padding: 0px 20px 45px;
+}
+
+.block-5 button {
+  font-family: "Jost";
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  background: #399cf9;
+  border: none;
+  width: 157px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 9px 24px 9px 24px;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+
+.block-5 button:hover {
+  background: #0f2e66;
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.7);
+}
+
+.block-5 button:active {
+  color: #0f2e66;
+  background: white;
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.7);
+}
+footer {
+  background-color: rgba(15, 46, 102, 1);
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 25px 125px 0px 125px;
+  transition: 0.3s ease-in-out;
+}
+
+.logo img {
+  filter: grayscale(100%);
+  width: 77px;
+  height: 77px;
+  transition: 0.15s ease-in-out;
+}
+
+.logo img:hover {
+  filter: grayscale(0%);
+  scale: 1.1;
+}
+
+footer h1 {
+  font-family: "General Sans";
+  font-weight: 700;
+  color: rgba(249, 241, 241, 0.4);
+  padding: 0px 75 0px 75px;
+  text-align: center;
+  font-size: 100px;
+  line-height: 110%;
+}
+
+footer p {
+  color: rgba(200, 200, 200, 1);
+  font-family: "Jost";
+  font-size: 15px;
+  text-align: center;
+  padding: 0 75px 40px 75px;
+}

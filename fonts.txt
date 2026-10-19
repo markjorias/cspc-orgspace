@@ -1,0 +1,28 @@
+Fonts:
+<link href="https://api.fontshare.com/v2/css?f[]=tanker@400&f[]=general-sans@600,700&f[]=bespoke-serif@501&display=swap" rel="stylesheet">
+
+CSS:
+font-family: 'Tanker', sans-serif;
+font-family: 'General Sans', sans-serif;
+font-family: 'Bespoke Serif', serif;
+
+
+Fonts in this
+Tanker Regular
+General Sans Semibold BOLD
+Bespoke medium italic
+
+
+
+GOOGLE FONTS
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;800&family=Playfair+Display:wght@400;500;900&display=swap" rel="stylesheet">
+
+CSS:
+font-family: 'Jost', sans-serif;
+font-family: 'Playfair Display', serif;
+
+Jost Medium 500 extrabold
+Playfair Display 400 500 900
+regular medium black
